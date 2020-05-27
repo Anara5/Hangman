@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
+        <h1>Hänga gubbe</h1> 
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Syftet med spelet är att gissa en slumpmässig ord<br/>
+          som valts av datorn
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        
+        <img src="images/hang.jpg" align="center" />
+        
+
       </header>
+      
     </div>
   );
 }
