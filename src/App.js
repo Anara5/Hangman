@@ -19,9 +19,13 @@ function App() {
 
         <h1>- - - - - -</h1>
 
-        <p>Antal fel: 0</p>
+        <h1>Antal fel: 0</h1>
 
         <button>a</button>
+    
+        <br/>
+
+        <button id="reset">Återställ</button>
 
 
         
