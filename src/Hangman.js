@@ -68,10 +68,10 @@ class Hangman extends Component {
         
         let gameStat = this.generateButtons();
         if (isWinner) {
-            return "Grattis du har gissat korrekt!";
+            gameStat= "Grattis du har gissat korrekt!";
         }
         if (gameOver) {
-           return "Du har förlorat";
+           gameStat= "Du har förlorat";
         }
 
         return(
@@ -85,7 +85,7 @@ class Hangman extends Component {
 
             <div>Antal fel: {this.state.mistake} av {this.props.maxWrong}</div>
 
-            <div></div>
+            <div>{this.gameStat}</div>
             
             <div className="hangman-btns"><p>{gameStat}</p></div>
             <br/>
