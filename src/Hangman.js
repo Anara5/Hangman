@@ -61,7 +61,6 @@ class Hangman extends Component {
         }));
     }
     
-
     render() {
         const isWinner = this.guessWord().join("") === this.state.answer;
         const gameOver = this.state.mistake >= this.props.maxWrong;
@@ -89,6 +88,7 @@ class Hangman extends Component {
             
             <div className="hangman-btns"><p>{gameStat}</p></div>
             <br/>
+  
             <button onClick={this.handleReset} className="resetBtn">Återställ</button>
 
             </div>
