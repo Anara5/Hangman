@@ -7,3 +7,4 @@ const ButtonComponent = ({ltr, isClicked, isDisabled}) => {
     </button>;
 };
 export default ButtonComponent;
+
