@@ -84,8 +84,6 @@ class Hangman extends Component {
             <p className="hangman-word">{!gameOver ? this.guessWord() : this.state.answer}</p>
 
             <div>Antal fel: {this.state.mistake} av {this.props.maxWrong}</div>
-
-            <div>{this.gameStat}</div>
             
             <div className="hangman-btns"><p>{gameStat}</p></div>
             <br/>
